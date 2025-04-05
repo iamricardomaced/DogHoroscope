@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dog Horoscope</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h1>Dog Horoscope</h1>
+<form id="dogForm">
+<div class="form-group">
+<label for="dogName">Dog's Name:</label>
+<input type="text" id="dogName" required>
+</div>
+<div class="form-group">
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" required>
+</div>
+<div class="form-group">
+<label for="breed">Breed:</label>
+<input type="text" id="breed" required>
+</div>
+<div class="form-group">
+<label for="location">Location:</label>
+<input type="text" id="location" required>
+</div>
+<button type="submit">Get Horoscope</button>
+</form>
+<div id="horoscopeResult"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
